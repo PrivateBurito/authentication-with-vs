@@ -1,0 +1,130 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LoginForm/1.0.0": {
+        "dependencies": {
+          "System.Data.OleDb": "6.0.1"
+        },
+        "runtime": {
+          "LoginForm.dll": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/6.0.0": {},
+      "System.Configuration.ConfigurationManager/6.0.2": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "6.0.0",
+          "System.Security.Permissions": "6.0.1"
+        }
+      },
+      "System.Data.OleDb/6.0.1": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "6.0.2",
+          "System.Diagnostics.PerformanceCounter": "6.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/System.Data.OleDb.dll": {
+            "assemblyVersion": "6.0.0.1",
+            "fileVersion": "6.0.3624.51421"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Data.OleDb.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.1",
+            "fileVersion": "6.0.3624.51421"
+          }
+        }
+      },
+      "System.Diagnostics.PerformanceCounter/6.0.2": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "6.0.2"
+        }
+      },
+      "System.Drawing.Common/6.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "6.0.0"
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/6.0.0": {},
+      "System.Security.Permissions/6.0.1": {
+        "dependencies": {
+          "System.Windows.Extensions": "6.0.0"
+        }
+      },
+      "System.Windows.Extensions/6.0.0": {
+        "dependencies": {
+          "System.Drawing.Common": "6.0.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LoginForm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Win32.SystemEvents/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
+      "path": "microsoft.win32.systemevents/6.0.0",
+      "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LtqgY79MRntWIM0AeQf4uj1mGyqpVhR7O9N1+UODQu/EGQwRTERqMqpYTeedE7VTK2ngoCtxzAaTn9gRDa+6Qw==",
+      "path": "system.configuration.configurationmanager/6.0.2",
+      "hashPath": "system.configuration.configurationmanager.6.0.2.nupkg.sha512"
+    },
+    "System.Data.OleDb/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sJvF4HTxk7wjWPfNGH6+0jUZLnWbBbftDkQ5XZBMAFnCvh28a6NSEzXj5q27Ikg9CPybCoQdYaVBNqJOMaKGfw==",
+      "path": "system.data.oledb/6.0.1",
+      "hashPath": "system.data.oledb.6.0.1.nupkg.sha512"
+    },
+    "System.Diagnostics.PerformanceCounter/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4SLKj8/YJ+uA7YxmKmTfk6Pnn89nxIDipfNaApe1E3I2SI+f1+INj75ysTAtKwIWj7yQK8iiUjlRcJfiINwFUQ==",
+      "path": "system.diagnostics.performancecounter/6.0.2",
+      "hashPath": "system.diagnostics.performancecounter.6.0.2.nupkg.sha512"
+    },
+    "System.Drawing.Common/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NfuoKUiP2nUWwKZN6twGqXioIe1zVD0RIj2t976A+czLHr2nY454RwwXs6JU9Htc6mwqL6Dn/nEL3dpVf2jOhg==",
+      "path": "system.drawing.common/6.0.0",
+      "hashPath": "system.drawing.common.6.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rp1gMNEZpvx9vP0JW0oHLxlf8oSiQgtno77Y4PLUBjSiDYoD77Y8uXHr1Ea5XG4/pIKhqAdxZ8v8OTUtqo9PeQ==",
+      "path": "system.security.cryptography.protecteddata/6.0.0",
+      "hashPath": "system.security.cryptography.protecteddata.6.0.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QufGNXopGXxdXbkDn87hta4ajdNKNI3a1+HoJbKkmBbMtYPhEgEJKSiPZHGjI0zQpgZ7gi5L0gSV3PeewKRtew==",
+      "path": "system.security.permissions/6.0.1",
+      "hashPath": "system.security.permissions.6.0.1.nupkg.sha512"
+    },
+    "System.Windows.Extensions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
+      "path": "system.windows.extensions/6.0.0",
+      "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    }
+  }
+}
