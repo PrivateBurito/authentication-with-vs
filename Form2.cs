@@ -70,6 +70,7 @@ namespace LoginForm
                 }
                 catch (Exception ex) 
                 {
+                    // fix this
                     MessageBox.Show("Something went wrong!", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 }
