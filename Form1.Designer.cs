@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            usernameIn = new TextBox();
+            passwordIn = new TextBox();
             label1 = new Label();
             RegisterLabel = new LinkLabel();
             LoginButton = new Button();
@@ -38,26 +38,26 @@
             gradientPanel1 = new GradientPanel();
             SuspendLayout();
             // 
-            // textBox1
+            // usernameIn
             // 
-            textBox1.Cursor = Cursors.IBeam;
-            textBox1.Font = new Font("Trebuchet MS", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(32, 146);
-            textBox1.Name = "textBox1";
-            textBox1.PlaceholderText = " Username";
-            textBox1.Size = new Size(291, 30);
-            textBox1.TabIndex = 0;
+            usernameIn.Cursor = Cursors.IBeam;
+            usernameIn.Font = new Font("Trebuchet MS", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            usernameIn.Location = new Point(32, 146);
+            usernameIn.Name = "usernameIn";
+            usernameIn.PlaceholderText = " Username";
+            usernameIn.Size = new Size(291, 30);
+            usernameIn.TabIndex = 0;
             // 
-            // textBox2
+            // passwordIn
             // 
-            textBox2.Cursor = Cursors.IBeam;
-            textBox2.Font = new Font("Trebuchet MS", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(32, 196);
-            textBox2.Name = "textBox2";
-            textBox2.PlaceholderText = " Password";
-            textBox2.Size = new Size(291, 30);
-            textBox2.TabIndex = 1;
-            textBox2.TextChanged += textBox2_TextChanged;
+            passwordIn.Cursor = Cursors.IBeam;
+            passwordIn.Font = new Font("Trebuchet MS", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            passwordIn.Location = new Point(32, 196);
+            passwordIn.Name = "passwordIn";
+            passwordIn.PlaceholderText = " Password";
+            passwordIn.Size = new Size(291, 30);
+            passwordIn.TabIndex = 1;
+            passwordIn.TextChanged += textBox2_TextChanged;
             // 
             // label1
             // 
@@ -132,8 +132,8 @@
             Controls.Add(LoginButton);
             Controls.Add(RegisterLabel);
             Controls.Add(label1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(passwordIn);
+            Controls.Add(usernameIn);
             Controls.Add(gradientPanel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "LoginForm";
@@ -145,8 +145,8 @@
 
         #endregion
 
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox usernameIn;
+        private TextBox passwordIn;
         private Label label1;
         private LinkLabel RegisterLabel;
         private Button LoginButton;

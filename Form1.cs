@@ -1,3 +1,7 @@
+using System.Data;
+using System.Data.OleDb;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
 namespace LoginForm
 {
     public partial class LoginForm : Form
@@ -19,8 +23,40 @@ namespace LoginForm
             this.Hide();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) //login button
         {
+            string connectionString = @"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = C:\Users\Kenneth\Documents\Visual Studio 2022\Projects\LoginForm\Accounts.accdb";
+
+            using (OleDbConnection connection = new OleDbConnection(connectionString)) {
+
+                try
+                {
+                    connection.Open();
+
+                    string query = "Select * from Users where Username = '" + usernameIn.Text.Trim() + "'and Pword ='" + passwordIn.Text.Trim() + "'";
+                    OleDbDataAdapter sda = new OleDbDataAdapter(query, connection);
+                    DataTable dtbl = new DataTable();
+                    sda.Fill(dtbl);
+
+                    if (dtbl.Rows.Count == 1)
+                    {
+                        MessageBox.Show("Success!");
+
+                        Form3 form = new Form3();
+                        this.Hide();
+                        form.Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Check Your Username and Password!");
+                    }
+                }
+                catch (Exception ex) {
+                    MessageBox.Show("something went wrong!");
+                }
+            }
+
+
 
         }
 

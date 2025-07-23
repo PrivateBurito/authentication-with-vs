@@ -20,3 +20,4 @@ C:\Users\Kenneth\Documents\Visual Studio 2022\Projects\LoginForm\bin\Debug\net8.
 C:\Users\Kenneth\Documents\Visual Studio 2022\Projects\LoginForm\obj\Debug\net8.0-windows\LoginForm.csproj.AssemblyReference.cache
 C:\Users\Kenneth\Documents\Visual Studio 2022\Projects\LoginForm\obj\Debug\net8.0-windows\LoginForm.csproj.Up2Date
 C:\Users\Kenneth\Documents\Visual Studio 2022\Projects\LoginForm\obj\Debug\net8.0-windows\LoginForm.sourcelink.json
+C:\Users\Kenneth\Documents\Visual Studio 2022\Projects\LoginForm\obj\Debug\net8.0-windows\LoginForm.Form3.resources
