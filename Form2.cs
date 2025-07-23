@@ -42,6 +42,8 @@ namespace LoginForm
         {
             string connectionString = @"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = C:\Users\Kenneth\Documents\Visual Studio 2022\Projects\LoginForm\Accounts.accdb";
 
+
+
             using (OleDbConnection connection = new OleDbConnection(connectionString))
             {
                 try
@@ -51,7 +53,7 @@ namespace LoginForm
                     string query = "INSERT INTO Users (LastName, FirstName, MiddleName, Birthday, PhoneNumber, Email, Username, PWord) " +
                         " VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
 
-                    using (OleDbCommand cmd = new OleDbCommand (query, connection))
+                    using (OleDbCommand cmd = new OleDbCommand(query, connection))
                     {
                         cmd.Parameters.AddWithValue("?", LastNameIn.Text);
                         cmd.Parameters.AddWithValue("?", FirstNameIn.Text);
@@ -68,13 +70,44 @@ namespace LoginForm
 
                     }
                 }
-                catch (Exception ex) 
+                catch (Exception ex)
                 {
                     // fix this
                     MessageBox.Show("Something went wrong!", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 }
             }
+        }
+
+        private void RegisterForm_Load(object sender, EventArgs e)
+        {
+            //label1.Parent = gradientPanel1;
+            //label2.Parent = gradientPanel1;
+            //label3.Parent = gradientPanel1;
+            //label4.Parent = gradientPanel1;
+            //label5.Parent = gradientPanel1;
+            //label6.Parent = gradientPanel1;
+            //label7.Parent = gradientPanel1;
+            //label8.Parent = gradientPanel1;
+            //label9.Parent = gradientPanel1;
+            label10.Parent = gradientPanel1;
+            groupBox1.Parent = gradientPanel1;
+            groupBox2.Parent = gradientPanel1;
+            groupBox3.Parent = gradientPanel1;
+
+            label1.BackColor = Color.Transparent;
+            label2.BackColor = Color.Transparent;
+            label3.BackColor = Color.Transparent;
+            label4.BackColor = Color.Transparent;
+            label5.BackColor = Color.Transparent;
+            label6.BackColor = Color.Transparent;
+            label7.BackColor = Color.Transparent;
+            label8.BackColor = Color.Transparent;
+            label9.BackColor = Color.Transparent;
+            label10.BackColor = Color.Transparent;
+            groupBox1.BackColor = Color.Transparent;
+            groupBox2.BackColor = Color.Transparent;
+            groupBox3.BackColor = Color.Transparent;
         }
     }
 }

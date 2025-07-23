@@ -32,93 +32,112 @@
             textBox2 = new TextBox();
             label1 = new Label();
             RegisterLabel = new LinkLabel();
-            label2 = new Label();
-            label3 = new Label();
             LoginButton = new Button();
+            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            label2 = new Label();
+            gradientPanel1 = new GradientPanel();
             SuspendLayout();
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(134, 88);
+            textBox1.Cursor = Cursors.IBeam;
+            textBox1.Font = new Font("Trebuchet MS", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox1.Location = new Point(32, 146);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(221, 23);
+            textBox1.PlaceholderText = " Username";
+            textBox1.Size = new Size(291, 30);
             textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(134, 129);
+            textBox2.Cursor = Cursors.IBeam;
+            textBox2.Font = new Font("Trebuchet MS", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox2.Location = new Point(32, 196);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(221, 23);
+            textBox2.PlaceholderText = " Password";
+            textBox2.Size = new Size(291, 30);
             textBox2.TabIndex = 1;
             textBox2.TextChanged += textBox2_TextChanged;
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Modern No. 20", 23.9999962F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label1.Location = new Point(134, 29);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Trebuchet MS", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.Black;
+            label1.Location = new Point(12, 9);
             label1.Name = "label1";
-            label1.Size = new Size(140, 34);
+            label1.Size = new Size(292, 62);
             label1.TabIndex = 2;
-            label1.Text = "Welcome!";
+            label1.Text = "Welcome back! Good to see you again!";
             label1.Click += label1_Click;
             // 
             // RegisterLabel
             // 
+            RegisterLabel.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             RegisterLabel.AutoSize = true;
-            RegisterLabel.Location = new Point(47, 172);
+            RegisterLabel.Font = new Font("Trebuchet MS", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            RegisterLabel.Location = new Point(145, 393);
             RegisterLabel.Name = "RegisterLabel";
-            RegisterLabel.Size = new Size(103, 15);
+            RegisterLabel.Size = new Size(85, 18);
             RegisterLabel.TabIndex = 3;
             RegisterLabel.TabStop = true;
-            RegisterLabel.Text = "Create an account";
+            RegisterLabel.Text = "Register Now!";
             RegisterLabel.LinkClicked += RegisterLabel_LinkClicked;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(47, 90);
-            label2.Name = "label2";
-            label2.Size = new Size(81, 21);
-            label2.TabIndex = 4;
-            label2.Text = "Username";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(47, 131);
-            label3.Name = "label3";
-            label3.Size = new Size(76, 21);
-            label3.TabIndex = 5;
-            label3.Text = "Password";
             // 
             // LoginButton
             // 
-            LoginButton.Location = new Point(280, 168);
+            LoginButton.BackColor = Color.MediumTurquoise;
+            LoginButton.FlatAppearance.BorderSize = 0;
+            LoginButton.FlatStyle = FlatStyle.Flat;
+            LoginButton.Font = new Font("Trebuchet MS", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            LoginButton.ForeColor = SystemColors.ButtonFace;
+            LoginButton.Location = new Point(117, 253);
             LoginButton.Name = "LoginButton";
-            LoginButton.Size = new Size(75, 23);
+            LoginButton.Size = new Size(121, 36);
             LoginButton.TabIndex = 6;
             LoginButton.Text = "Login";
-            LoginButton.UseVisualStyleBackColor = true;
+            LoginButton.UseVisualStyleBackColor = false;
             LoginButton.Click += button1_Click;
+            // 
+            // label2
+            // 
+            label2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            label2.AutoSize = true;
+            label2.Font = new Font("Trebuchet MS", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(12, 393);
+            label2.Name = "label2";
+            label2.Size = new Size(136, 18);
+            label2.TabIndex = 7;
+            label2.Text = "Don't have an account?";
+            label2.Click += label2_Click;
+            // 
+            // gradientPanel1
+            // 
+            gradientPanel1.Angle = 30F;
+            gradientPanel1.BackColor = Color.IndianRed;
+            gradientPanel1.BottomColor = Color.FromArgb(128, 255, 128);
+            gradientPanel1.Location = new Point(-1, -1);
+            gradientPanel1.Name = "gradientPanel1";
+            gradientPanel1.Size = new Size(362, 425);
+            gradientPanel1.TabIndex = 8;
+            gradientPanel1.TopColor = Color.FromArgb(128, 255, 255);
             // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.LightGray;
-            ClientSize = new Size(401, 307);
-            Controls.Add(LoginButton);
-            Controls.Add(label3);
+            BackColor = SystemColors.Window;
+            ClientSize = new Size(360, 420);
             Controls.Add(label2);
+            Controls.Add(LoginButton);
             Controls.Add(RegisterLabel);
             Controls.Add(label1);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
+            Controls.Add(gradientPanel1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "LoginForm";
-            Text = "Form1";
+            Text = "Login";
             Load += LoginForm_Load;
             ResumeLayout(false);
             PerformLayout();
@@ -130,8 +149,9 @@
         private TextBox textBox2;
         private Label label1;
         private LinkLabel RegisterLabel;
-        private Label label2;
-        private Label label3;
         private Button LoginButton;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private Label label2;
+        private GradientPanel gradientPanel1;
     }
 }

@@ -51,6 +51,7 @@
             RegisterButton = new Button();
             label10 = new Label();
             BackButton = new Button();
+            gradientPanel1 = new GradientPanel();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -60,28 +61,28 @@
             // 
             LastNameIn.Location = new Point(123, 17);
             LastNameIn.Name = "LastNameIn";
-            LastNameIn.Size = new Size(221, 23);
+            LastNameIn.Size = new Size(221, 21);
             LastNameIn.TabIndex = 0;
             // 
             // FirstNameIn
             // 
             FirstNameIn.Location = new Point(123, 46);
             FirstNameIn.Name = "FirstNameIn";
-            FirstNameIn.Size = new Size(221, 23);
+            FirstNameIn.Size = new Size(221, 21);
             FirstNameIn.TabIndex = 1;
             // 
             // MiddleNameIn
             // 
             MiddleNameIn.Location = new Point(123, 75);
             MiddleNameIn.Name = "MiddleNameIn";
-            MiddleNameIn.Size = new Size(221, 23);
+            MiddleNameIn.Size = new Size(221, 21);
             MiddleNameIn.TabIndex = 2;
             // 
             // UsernameIn
             // 
             UsernameIn.Location = new Point(125, 17);
             UsernameIn.Name = "UsernameIn";
-            UsernameIn.Size = new Size(221, 23);
+            UsernameIn.Size = new Size(221, 21);
             UsernameIn.TabIndex = 3;
             UsernameIn.TextChanged += textBox4_TextChanged;
             // 
@@ -89,28 +90,28 @@
             // 
             PhoneIn.Location = new Point(123, 22);
             PhoneIn.Name = "PhoneIn";
-            PhoneIn.Size = new Size(221, 23);
+            PhoneIn.Size = new Size(221, 21);
             PhoneIn.TabIndex = 4;
             // 
             // EmailIn
             // 
             EmailIn.Location = new Point(123, 51);
             EmailIn.Name = "EmailIn";
-            EmailIn.Size = new Size(221, 23);
+            EmailIn.Size = new Size(221, 21);
             EmailIn.TabIndex = 5;
             // 
             // PasswordIn
             // 
             PasswordIn.Location = new Point(125, 46);
             PasswordIn.Name = "PasswordIn";
-            PasswordIn.Size = new Size(221, 23);
+            PasswordIn.Size = new Size(221, 21);
             PasswordIn.TabIndex = 6;
             // 
             // BirthdayIn
             // 
             BirthdayIn.Location = new Point(123, 104);
             BirthdayIn.Name = "BirthdayIn";
-            BirthdayIn.Size = new Size(221, 23);
+            BirthdayIn.Size = new Size(221, 21);
             BirthdayIn.TabIndex = 7;
             // 
             // label1
@@ -204,6 +205,7 @@
             // 
             // groupBox1
             // 
+            groupBox1.BackColor = Color.Transparent;
             groupBox1.Controls.Add(label1);
             groupBox1.Controls.Add(LastNameIn);
             groupBox1.Controls.Add(FirstNameIn);
@@ -212,6 +214,7 @@
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(label4);
             groupBox1.Controls.Add(label3);
+            groupBox1.Font = new Font("Trebuchet MS", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             groupBox1.Location = new Point(24, 53);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(353, 137);
@@ -226,6 +229,7 @@
             groupBox2.Controls.Add(EmailIn);
             groupBox2.Controls.Add(label5);
             groupBox2.Controls.Add(label6);
+            groupBox2.Font = new Font("Trebuchet MS", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             groupBox2.Location = new Point(24, 196);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(353, 85);
@@ -240,6 +244,7 @@
             groupBox3.Controls.Add(PasswordIn);
             groupBox3.Controls.Add(label9);
             groupBox3.Controls.Add(label7);
+            groupBox3.Font = new Font("Trebuchet MS", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             groupBox3.Location = new Point(24, 301);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new Size(353, 85);
@@ -249,12 +254,17 @@
             // 
             // RegisterButton
             // 
+            RegisterButton.BackColor = Color.MediumTurquoise;
+            RegisterButton.FlatAppearance.BorderSize = 0;
+            RegisterButton.FlatStyle = FlatStyle.Flat;
+            RegisterButton.Font = new Font("Trebuchet MS", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            RegisterButton.ForeColor = SystemColors.Control;
             RegisterButton.Location = new Point(306, 392);
             RegisterButton.Name = "RegisterButton";
             RegisterButton.Size = new Size(75, 23);
             RegisterButton.TabIndex = 20;
             RegisterButton.Text = "Register";
-            RegisterButton.UseVisualStyleBackColor = true;
+            RegisterButton.UseVisualStyleBackColor = false;
             RegisterButton.Click += RegisterButton_Click;
             // 
             // label10
@@ -269,19 +279,35 @@
             // 
             // BackButton
             // 
+            BackButton.BackColor = Color.MediumTurquoise;
+            BackButton.FlatAppearance.BorderSize = 0;
+            BackButton.FlatStyle = FlatStyle.Flat;
+            BackButton.Font = new Font("Trebuchet MS", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            BackButton.ForeColor = SystemColors.Control;
             BackButton.Location = new Point(24, 392);
             BackButton.Name = "BackButton";
             BackButton.Size = new Size(75, 23);
             BackButton.TabIndex = 22;
             BackButton.Text = "Back";
-            BackButton.UseVisualStyleBackColor = true;
+            BackButton.UseVisualStyleBackColor = false;
             BackButton.Click += BackButton_Click;
+            // 
+            // gradientPanel1
+            // 
+            gradientPanel1.Angle = 30F;
+            gradientPanel1.BackColor = Color.IndianRed;
+            gradientPanel1.BottomColor = Color.FromArgb(128, 255, 128);
+            gradientPanel1.Location = new Point(-5, 0);
+            gradientPanel1.Name = "gradientPanel1";
+            gradientPanel1.Size = new Size(408, 432);
+            gradientPanel1.TabIndex = 23;
+            gradientPanel1.TopColor = Color.FromArgb(128, 255, 255);
             // 
             // RegisterForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.LightGray;
+            BackColor = Color.White;
             ClientSize = new Size(401, 428);
             Controls.Add(BackButton);
             Controls.Add(label10);
@@ -289,8 +315,10 @@
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
+            Controls.Add(gradientPanel1);
             Name = "RegisterForm";
             Text = "Form2";
+            Load += RegisterForm_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);
@@ -326,5 +354,6 @@
         private Button RegisterButton;
         private Label label10;
         private Button BackButton;
+        private GradientPanel gradientPanel1;
     }
 }
