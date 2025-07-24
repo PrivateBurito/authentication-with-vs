@@ -67,13 +67,17 @@ namespace LoginForm
                         cmd.ExecuteNonQuery();
 
                         MessageBox.Show("Registration Complete!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        
+                        LoginForm loginForm = new LoginForm();
+                        loginForm.Show();
 
+                        this.Close();
                     }
                 }
                 catch (Exception ex)
                 {
                     // fix this
-                    MessageBox.Show("Something went wrong!", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Something went wrong!" + ex.Message, "Failed", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 }
             }
@@ -81,15 +85,8 @@ namespace LoginForm
 
         private void RegisterForm_Load(object sender, EventArgs e)
         {
-            //label1.Parent = gradientPanel1;
-            //label2.Parent = gradientPanel1;
-            //label3.Parent = gradientPanel1;
-            //label4.Parent = gradientPanel1;
-            //label5.Parent = gradientPanel1;
-            //label6.Parent = gradientPanel1;
-            //label7.Parent = gradientPanel1;
-            //label8.Parent = gradientPanel1;
-            //label9.Parent = gradientPanel1;
+            // This is to make lables be transparent \/
+            // Will change later
             label10.Parent = gradientPanel1;
             groupBox1.Parent = gradientPanel1;
             groupBox2.Parent = gradientPanel1;
