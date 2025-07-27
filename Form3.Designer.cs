@@ -153,6 +153,7 @@
             ClientSize = new Size(800, 450);
             Controls.Add(gradientPanel1);
             Name = "Form3";
+            ShowInTaskbar = false;
             Text = "Form3";
             Load += Form3_Load;
             gradientPanel1.ResumeLayout(false);

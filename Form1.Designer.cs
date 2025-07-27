@@ -114,14 +114,14 @@
             // 
             // gradientPanel1
             // 
-            gradientPanel1.Angle = 30F;
+            gradientPanel1.Angle = 225F;
             gradientPanel1.BackColor = Color.IndianRed;
-            gradientPanel1.BottomColor = Color.FromArgb(128, 255, 128);
+            gradientPanel1.BottomColor = Color.FromArgb(237, 50, 240);
             gradientPanel1.Location = new Point(-1, -1);
             gradientPanel1.Name = "gradientPanel1";
             gradientPanel1.Size = new Size(362, 425);
             gradientPanel1.TabIndex = 8;
-            gradientPanel1.TopColor = Color.FromArgb(128, 255, 255);
+            gradientPanel1.TopColor = Color.FromArgb(2, 80, 247);
             // 
             // LoginForm
             // 

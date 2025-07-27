@@ -67,12 +67,18 @@ namespace LoginForm
 
         private void LoginForm_Load(object sender, EventArgs e)
         {
+            Color forColor = Color.White;
             label1.Parent = gradientPanel1;
             label2.Parent = gradientPanel1;
             RegisterLabel.Parent = gradientPanel1;
+
             label1.BackColor = Color.Transparent;
             label2.BackColor = Color.Transparent;
             RegisterLabel.BackColor = Color.Transparent;
+
+            label1.ForeColor = forColor;
+            label2.ForeColor = forColor;
+            RegisterLabel.ForeColor = forColor;
         }
 
         private void label2_Click(object sender, EventArgs e)

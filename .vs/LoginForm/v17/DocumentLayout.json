@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Kenneth\\Documents\\Visual Studio 2022\\Projects\\LoginForm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3ABAA792-61C3-4A39-8CA2-3362EFA12E60}|LoginForm.csproj|c:\\users\\kenneth\\documents\\visual studio 2022\\projects\\loginform\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ABAA792-61C3-4A39-8CA2-3362EFA12E60}|LoginForm.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3ABAA792-61C3-4A39-8CA2-3362EFA12E60}|LoginForm.csproj|C:\\Users\\Kenneth\\Documents\\Visual Studio 2022\\Projects\\LoginForm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3ABAA792-61C3-4A39-8CA2-3362EFA12E60}|LoginForm.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ABAA792-61C3-4A39-8CA2-3362EFA12E60}|LoginForm.csproj|C:\\Users\\Kenneth\\Documents\\Visual Studio 2022\\Projects\\LoginForm\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3ABAA792-61C3-4A39-8CA2-3362EFA12E60}|LoginForm.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3ABAA792-61C3-4A39-8CA2-3362EFA12E60}|LoginForm.csproj|c:\\users\\kenneth\\documents\\visual studio 2022\\projects\\loginform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3ABAA792-61C3-4A39-8CA2-3362EFA12E60}|LoginForm.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3ABAA792-61C3-4A39-8CA2-3362EFA12E60}|LoginForm.csproj|C:\\Users\\Kenneth\\Documents\\Visual Studio 2022\\Projects\\LoginForm\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3ABAA792-61C3-4A39-8CA2-3362EFA12E60}|LoginForm.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3ABAA792-61C3-4A39-8CA2-3362EFA12E60}|LoginForm.csproj|C:\\Users\\Kenneth\\Documents\\Visual Studio 2022\\Projects\\LoginForm\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3ABAA792-61C3-4A39-8CA2-3362EFA12E60}|LoginForm.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3ABAA792-61C3-4A39-8CA2-3362EFA12E60}|LoginForm.csproj|c:\\users\\kenneth\\documents\\visual studio 2022\\projects\\loginform\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3ABAA792-61C3-4A39-8CA2-3362EFA12E60}|LoginForm.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3ABAA792-61C3-4A39-8CA2-3362EFA12E60}|LoginForm.csproj|c:\\users\\kenneth\\documents\\visual studio 2022\\projects\\loginform\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ABAA792-61C3-4A39-8CA2-3362EFA12E60}|LoginForm.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3ABAA792-61C3-4A39-8CA2-3362EFA12E60}|LoginForm.csproj|c:\\users\\kenneth\\documents\\visual studio 2022\\projects\\loginform\\opacitypanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3ABAA792-61C3-4A39-8CA2-3362EFA12E60}|LoginForm.csproj|solutionrelative:opacitypanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ABAA792-61C3-4A39-8CA2-3362EFA12E60}|LoginForm.csproj|C:\\Users\\Kenneth\\Documents\\Visual Studio 2022\\Projects\\LoginForm\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3ABAA792-61C3-4A39-8CA2-3362EFA12E60}|LoginForm.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3ABAA792-61C3-4A39-8CA2-3362EFA12E60}|LoginForm.csproj|c:\\users\\kenneth\\documents\\visual studio 2022\\projects\\loginform\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,49 +38,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OpacityPanel.cs",
-              "DocumentMoniker": "C:\\Users\\Kenneth\\Documents\\Visual Studio 2022\\Projects\\LoginForm\\OpacityPanel.cs",
-              "RelativeDocumentMoniker": "OpacityPanel.cs",
-              "ToolTip": "C:\\Users\\Kenneth\\Documents\\Visual Studio 2022\\Projects\\LoginForm\\OpacityPanel.cs",
-              "RelativeToolTip": "OpacityPanel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T14:30:25.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form3.cs",
-              "DocumentMoniker": "C:\\Users\\Kenneth\\Documents\\Visual Studio 2022\\Projects\\LoginForm\\Form3.cs",
-              "RelativeDocumentMoniker": "Form3.cs",
-              "ToolTip": "C:\\Users\\Kenneth\\Documents\\Visual Studio 2022\\Projects\\LoginForm\\Form3.cs",
-              "RelativeToolTip": "Form3.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAgwHIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T16:45:08.868Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Form3.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Kenneth\\Documents\\Visual Studio 2022\\Projects\\LoginForm\\Form3.cs",
-              "RelativeDocumentMoniker": "Form3.cs",
-              "ToolTip": "C:\\Users\\Kenneth\\Documents\\Visual Studio 2022\\Projects\\LoginForm\\Form3.cs [Design]",
-              "RelativeToolTip": "Form3.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T08:22:11.309Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Kenneth\\Documents\\Visual Studio 2022\\Projects\\LoginForm\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
@@ -92,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Kenneth\\Documents\\Visual Studio 2022\\Projects\\LoginForm\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -104,15 +70,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "OpacityPanel.cs",
+              "DocumentMoniker": "C:\\Users\\Kenneth\\Documents\\Visual Studio 2022\\Projects\\LoginForm\\OpacityPanel.cs",
+              "RelativeDocumentMoniker": "OpacityPanel.cs",
+              "ToolTip": "C:\\Users\\Kenneth\\Documents\\Visual Studio 2022\\Projects\\LoginForm\\OpacityPanel.cs",
+              "RelativeToolTip": "OpacityPanel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T14:30:25.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Kenneth\\Documents\\Visual Studio 2022\\Projects\\LoginForm\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\Kenneth\\Documents\\Visual Studio 2022\\Projects\\LoginForm\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAIwC8AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAIwFAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-21T02:33:55.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Kenneth\\Documents\\Visual Studio 2022\\Projects\\LoginForm\\Form3.cs",
+              "RelativeDocumentMoniker": "Form3.cs",
+              "ToolTip": "C:\\Users\\Kenneth\\Documents\\Visual Studio 2022\\Projects\\LoginForm\\Form3.cs [Design]",
+              "RelativeToolTip": "Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T08:22:11.309Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\Kenneth\\Documents\\Visual Studio 2022\\Projects\\LoginForm\\Form3.cs",
+              "RelativeDocumentMoniker": "Form3.cs",
+              "ToolTip": "C:\\Users\\Kenneth\\Documents\\Visual Studio 2022\\Projects\\LoginForm\\Form3.cs",
+              "RelativeToolTip": "Form3.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAIwHIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T16:45:08.868Z",
               "EditorCaption": ""
             },
             {
