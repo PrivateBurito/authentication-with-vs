@@ -14,12 +14,13 @@ namespace LoginForm
 
         protected override void OnPaint(PaintEventArgs e)
         {
-            SolidBrush solidBrush = new SolidBrush(BackgroundColor);
+            Color color = Color.FromArgb(Opacity, BackgroundColor);
+            SolidBrush solidBrush = new SolidBrush(color);
             Graphics g = e.Graphics;
             Rectangle rect = new Rectangle(0, 0, Width, Height);
             g.FillRectangle(solidBrush, rect);
-            //BackColor = Color.FromArgb(Opacity, BackgroundColor);
             base.OnPaint(e);
+
             g.Dispose();
             solidBrush.Dispose();
         }

@@ -117,7 +117,9 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.DarkGray;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.White;
             label1.Location = new Point(6, 19);
             label1.Name = "label1";
             label1.Size = new Size(84, 21);
@@ -127,7 +129,9 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.DarkGray;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.White;
             label2.Location = new Point(6, 48);
             label2.Name = "label2";
             label2.Size = new Size(86, 21);
@@ -137,7 +141,9 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = Color.DarkGray;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.White;
             label3.Location = new Point(6, 77);
             label3.Name = "label3";
             label3.Size = new Size(104, 21);
@@ -147,7 +153,9 @@
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = Color.DarkGray;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.White;
             label4.Location = new Point(6, 106);
             label4.Name = "label4";
             label4.Size = new Size(71, 21);
@@ -157,7 +165,9 @@
             // label5
             // 
             label5.AutoSize = true;
+            label5.BackColor = Color.DarkGray;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.ForeColor = Color.White;
             label5.Location = new Point(6, 20);
             label5.Name = "label5";
             label5.Size = new Size(116, 21);
@@ -167,7 +177,9 @@
             // label6
             // 
             label6.AutoSize = true;
+            label6.BackColor = Color.DarkGray;
             label6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.ForeColor = Color.White;
             label6.Location = new Point(6, 53);
             label6.Name = "label6";
             label6.Size = new Size(57, 21);
@@ -186,7 +198,9 @@
             // label8
             // 
             label8.AutoSize = true;
+            label8.BackColor = Color.DarkGray;
             label8.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label8.ForeColor = Color.White;
             label8.Location = new Point(8, 19);
             label8.Name = "label8";
             label8.Size = new Size(84, 21);
@@ -196,7 +210,9 @@
             // label9
             // 
             label9.AutoSize = true;
+            label9.BackColor = Color.DarkGray;
             label9.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label9.ForeColor = Color.White;
             label9.Location = new Point(8, 48);
             label9.Name = "label9";
             label9.Size = new Size(79, 21);
@@ -215,6 +231,7 @@
             groupBox1.Controls.Add(label4);
             groupBox1.Controls.Add(label3);
             groupBox1.Font = new Font("Trebuchet MS", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            groupBox1.ForeColor = Color.White;
             groupBox1.Location = new Point(24, 53);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(353, 137);
@@ -230,6 +247,7 @@
             groupBox2.Controls.Add(label5);
             groupBox2.Controls.Add(label6);
             groupBox2.Font = new Font("Trebuchet MS", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            groupBox2.ForeColor = Color.White;
             groupBox2.Location = new Point(24, 196);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(353, 85);
@@ -245,6 +263,7 @@
             groupBox3.Controls.Add(label9);
             groupBox3.Controls.Add(label7);
             groupBox3.Font = new Font("Trebuchet MS", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            groupBox3.ForeColor = Color.White;
             groupBox3.Location = new Point(24, 301);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new Size(353, 85);
@@ -254,7 +273,7 @@
             // 
             // RegisterButton
             // 
-            RegisterButton.BackColor = Color.MediumTurquoise;
+            RegisterButton.BackColor = SystemColors.ControlDark;
             RegisterButton.FlatAppearance.BorderSize = 0;
             RegisterButton.FlatStyle = FlatStyle.Flat;
             RegisterButton.Font = new Font("Trebuchet MS", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -270,7 +289,9 @@
             // label10
             // 
             label10.AutoSize = true;
+            label10.BackColor = Color.DarkGray;
             label10.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label10.ForeColor = Color.White;
             label10.Location = new Point(24, 9);
             label10.Name = "label10";
             label10.Size = new Size(102, 32);
@@ -279,7 +300,7 @@
             // 
             // BackButton
             // 
-            BackButton.BackColor = Color.MediumTurquoise;
+            BackButton.BackColor = SystemColors.ControlDark;
             BackButton.FlatAppearance.BorderSize = 0;
             BackButton.FlatStyle = FlatStyle.Flat;
             BackButton.Font = new Font("Trebuchet MS", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -294,14 +315,14 @@
             // 
             // gradientPanel1
             // 
-            gradientPanel1.Angle = 30F;
+            gradientPanel1.Angle = 225F;
             gradientPanel1.BackColor = Color.White;
-            gradientPanel1.BottomColor = Color.FromArgb(128, 255, 128);
+            gradientPanel1.BottomColor = Color.FromArgb(237, 50, 240);
             gradientPanel1.Location = new Point(-5, 0);
             gradientPanel1.Name = "gradientPanel1";
             gradientPanel1.Size = new Size(408, 432);
             gradientPanel1.TabIndex = 23;
-            gradientPanel1.TopColor = Color.FromArgb(128, 255, 255);
+            gradientPanel1.TopColor = Color.FromArgb(2, 80, 247);
             // 
             // RegisterForm
             // 

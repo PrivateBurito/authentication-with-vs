@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             gradientPanel1 = new GradientPanel();
+            opacityPanel1 = new OpacityPanel();
             label2 = new Label();
             UserInfoPanel = new Panel();
             WelcomePanel = new Label();
@@ -46,6 +47,7 @@
             gradientPanel1.Angle = 225F;
             gradientPanel1.BackColor = Color.White;
             gradientPanel1.BottomColor = Color.FromArgb(237, 50, 240);
+            gradientPanel1.Controls.Add(opacityPanel1);
             gradientPanel1.Controls.Add(label2);
             gradientPanel1.Controls.Add(UserInfoPanel);
             gradientPanel1.Location = new Point(-1, -5);
@@ -53,6 +55,16 @@
             gradientPanel1.Size = new Size(806, 457);
             gradientPanel1.TabIndex = 0;
             gradientPanel1.TopColor = Color.FromArgb(2, 80, 247);
+            // 
+            // opacityPanel1
+            // 
+            opacityPanel1.BackColor = Color.Gray;
+            opacityPanel1.BackgroundColor = Color.MidnightBlue;
+            opacityPanel1.Location = new Point(496, 150);
+            opacityPanel1.Name = "opacityPanel1";
+            opacityPanel1.Opacity = 75;
+            opacityPanel1.Size = new Size(200, 100);
+            opacityPanel1.TabIndex = 6;
             // 
             // label2
             // 
@@ -173,5 +185,6 @@
         private Label label1;
         private Button LogoutButton;
         private Label WelcomePanel;
+        private OpacityPanel opacityPanel1;
     }
 }
