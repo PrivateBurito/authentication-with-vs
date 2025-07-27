@@ -57,6 +57,7 @@
             passwordIn.PlaceholderText = " Password";
             passwordIn.Size = new Size(291, 30);
             passwordIn.TabIndex = 1;
+            passwordIn.UseSystemPasswordChar = true;
             passwordIn.TextChanged += textBox2_TextChanged;
             // 
             // label1

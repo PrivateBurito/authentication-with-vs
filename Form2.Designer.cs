@@ -295,7 +295,7 @@
             // gradientPanel1
             // 
             gradientPanel1.Angle = 30F;
-            gradientPanel1.BackColor = Color.IndianRed;
+            gradientPanel1.BackColor = Color.White;
             gradientPanel1.BottomColor = Color.FromArgb(128, 255, 128);
             gradientPanel1.Location = new Point(-5, 0);
             gradientPanel1.Name = "gradientPanel1";

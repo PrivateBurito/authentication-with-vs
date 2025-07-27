@@ -40,11 +40,11 @@ namespace LoginForm
 
                     if (dtbl.Rows.Count == 1)
                     {
-                        MessageBox.Show("Success!");
-
-                        Form3 form = new Form3();
+                        string userLogged = usernameIn.Text.Trim();
+                        Form3 form = new Form3(userLogged);
                         this.Hide();
                         form.Show();
+                        connection.Close();
                     }
                     else
                     {
@@ -52,7 +52,7 @@ namespace LoginForm
                     }
                 }
                 catch (Exception ex) {
-                    MessageBox.Show("something went wrong!");
+                    MessageBox.Show("something went wrong! " + ex.Message);
                 }
             }
 
