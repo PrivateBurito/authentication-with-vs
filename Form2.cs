@@ -70,8 +70,8 @@ namespace LoginForm
                         
                         LoginForm loginForm = new LoginForm();
                         loginForm.Show();
-
                         this.Close();
+                        connection.Close();
                     }
                 }
                 catch (Exception ex)

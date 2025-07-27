@@ -44,6 +44,7 @@ namespace LoginForm
                         Form3 form = new Form3(userLogged);
                         this.Hide();
                         form.Show();
+                        connection.Close();
                     }
                     else
                     {
